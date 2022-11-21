@@ -5,7 +5,7 @@ console.log(newNumber);
 
 // inference and annotation
 
-let ann: string = "Test";
+/* let ann: string = "Test";
 
 let inf = 'Test2'
 
@@ -14,3 +14,8 @@ let inf = 'Test2'
 
 //console.log(inf.length)
 
+console.log("Testing...") */
+
+
+/* let newNum = 2
+newNum: string = "Test" */

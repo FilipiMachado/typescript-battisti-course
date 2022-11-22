@@ -40,7 +40,20 @@ const objCoord = { x: 15, y: 20 };
 //console.log(passCoordinates(objCoord));
 // Props opcionais
 function showNumbers(a, b, c) {
+    if (!c) {
+        return `A: ${a} / B: ${b}`;
+    }
     return `A: ${a} / B: ${b} / C: ${c}`;
 }
-console.log(showNumbers(1, 2, 3));
+//console.log(showNumbers(1, 2, 3));
 //console.log(showNumbers(1, 2));
+// Validando argumento opcional
+function amazingGreetings(firstName, lastName) {
+    if (lastName !== undefined) {
+        return `Olá ` + firstName + lastName;
+    }
+    return "Olá " + firstName;
+}
+//console.log(amazingGreetings("Fil", "Br"));
+//console.log(amazingGreetings("Fil"));
+// Union type (melhor que utilizar Any)

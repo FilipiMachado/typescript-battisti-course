@@ -51,4 +51,12 @@ function passCoordinates(coords: { x: number; y: number }) {
 
 const objCoord = { x: 15, y: 20 };
 
-console.log(passCoordinates(objCoord));
+//console.log(passCoordinates(objCoord));
+
+// Props opcionais
+function showNumbers(a: number, b: number, c?: number) {
+  return `A: ${a} / B: ${b} / C: ${c}`;
+}
+
+console.log(showNumbers(1, 2, 3));
+//console.log(showNumbers(1, 2));

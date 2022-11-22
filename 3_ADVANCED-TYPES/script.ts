@@ -20,7 +20,17 @@ const array1: any = [1, "test", true, [], { name: "Fil" }];
 
 // Parâmetros tipados
 function sum(a: number, b: number) {
-  console.log(a + b);
+  //console.log(a + b);
 }
 
+sum(4, 6);
+//sum("2", "2");
 
+// Tipo de retorno de funções
+function greetings(name: string): string {
+  return "Hello " + name + "!";
+  //return 5
+  //console.log(`Olá ${name}`);
+}
+
+console.log(greetings("Zueirinho"));

@@ -15,5 +15,14 @@ const array1 = [1, "test", true, [], { name: "Fil" }];
 //console.log(array1);
 // Parâmetros tipados
 function sum(a, b) {
-    console.log(a + b);
+    //console.log(a + b);
 }
+sum(4, 6);
+//sum("2", "2");
+// Tipo de retorno de funções
+function greetings(name) {
+    return "Hello " + name + "!";
+    //return 5
+    //console.log(`Olá ${name}`);
+}
+console.log(greetings("Zueirinho"));

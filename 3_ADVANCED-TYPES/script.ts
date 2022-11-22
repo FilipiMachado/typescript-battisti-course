@@ -33,4 +33,22 @@ function greetings(name: string): string {
   //console.log(`Olá ${name}`);
 }
 
-console.log(greetings("Zueirinho"));
+//console.log(greetings("Zueirinho"));
+
+// Função anônima
+setTimeout(() => {
+  const salary: number = 1000;
+
+  //console.log(parseFloat(salary));
+
+  //console.log(salary)
+}, 2000);
+
+// Tipos de Objeto
+function passCoordinates(coords: { x: number; y: number }) {
+  return `X coords: ${coords.x} // Y coords: ${coords.y}`;
+}
+
+const objCoord = { x: 15, y: 20 };
+
+console.log(passCoordinates(objCoord));

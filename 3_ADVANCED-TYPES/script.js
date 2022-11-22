@@ -25,4 +25,16 @@ function greetings(name) {
     //return 5
     //console.log(`Olá ${name}`);
 }
-console.log(greetings("Zueirinho"));
+//console.log(greetings("Zueirinho"));
+// Função anônima
+setTimeout(() => {
+    const salary = 1000;
+    //console.log(parseFloat(salary));
+    //console.log(salary)
+}, 2000);
+// Tipos de Objeto
+function passCoordinates(coords) {
+    return `X coords: ${coords.x} // Y coords: ${coords.y}`;
+}
+const objCoord = { x: 15, y: 20 };
+console.log(passCoordinates(objCoord));

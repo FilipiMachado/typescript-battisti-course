@@ -75,5 +75,13 @@ function amazingGreetings(firstName: string, lastName?: string) {
 //console.log(amazingGreetings("Fil", "Br"));
 //console.log(amazingGreetings("Fil"));
 
-
 // Union type (melhor que utilizar Any)
+function showBalance(balance: string | number) {
+  console.log(`O saldo da conta é: ${balance}`);
+}
+
+showBalance(100);
+showBalance("850");
+//showBalance(true)
+//showBalance({})
+
